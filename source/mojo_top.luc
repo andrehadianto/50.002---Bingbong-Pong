@@ -119,7 +119,7 @@ module mojo_top (
           }
         }
       
-      state.P1_LOSE:
+      state.P1_LOSE:        
         alu.a = lives_p1.q;
         alu.b = 0;
         alu.alufn = 6h33; //checks if lives left => game over
